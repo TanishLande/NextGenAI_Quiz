@@ -32,9 +32,6 @@ export default function AddQuestionPage() {
         formRef.current.reset()
       }
 
-      setTimeout(() => {
-        router.push('/quiz')
-      }, 1800)
     } else {
       setError(result.error || 'Failed to add question. Please try again.')
     }
@@ -44,7 +41,6 @@ export default function AddQuestionPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-gray-950 to-black text-gray-200">
-      <Navbar />
 
       <main className="max-w-3xl mx-auto px-5 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="text-center mb-12">
