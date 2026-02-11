@@ -67,18 +67,9 @@ export default function Navbar() {
           </div>
 
           {/* Right Side Actions */}
-          <div className="flex items-center gap-3 sm:gap-5">
+          {/* <div className="flex items-center gap-3 sm:gap-5">
             {isAuthenticated ? (
               <>
-                {/* <button
-                  onClick={handleFillQuestion}
-                  className="relative group px-4 py-2 bg-gradient-to-r from-yellow-600 to-amber-600 hover:from-yellow-500 hover:to-amber-500 text-black font-semibold rounded-lg shadow-md shadow-yellow-900/30 transition-all duration-300 hover:scale-105 active:scale-95 flex items-center gap-2 text-sm md:text-base"
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                  </svg>
-                  Fill Question
-                </button> */}
 
                 <button
                   onClick={handleAddQuestion}
@@ -111,7 +102,7 @@ export default function Navbar() {
                 Enter Portal
               </button>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
 
