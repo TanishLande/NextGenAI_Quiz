@@ -15,7 +15,7 @@ export default function Home() {
   }, [])
 
   const handleStartQuiz = () => {
-    router.push('/quiz')           // ← change this path if your quiz page is different
+    router.push('/phase-one')           // ← change this path if your quiz page is different
   }
 
   if (isLoading) {
@@ -92,7 +92,7 @@ export default function Home() {
                   <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                   <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                 </svg>
-                START QUIZ
+                START CODE HUNT
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-white/15 via-transparent to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
             </button>
