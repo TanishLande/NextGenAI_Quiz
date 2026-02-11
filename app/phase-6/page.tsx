@@ -101,7 +101,7 @@ export default function Phase6() {
             {/* Google Drive Upload Button */}
             <div className="flex flex-col items-center gap-8 mb-12">
               <a
-                href="https://drive.google.com/drive/u/4/folders/1pPC6zKBVIxQbmEVOz1as6KyU7NR021Rg drive link to upload images" // ← REPLACE WITH YOUR ACTUAL SHARED FOLDER LINK
+                href="https://drive.google.com/drive/u/4/folders/1pPC6zKBVIxQbmEVOz1as6KyU7NR021Rg" // ← REPLACE WITH YOUR ACTUAL SHARED FOLDER LINK
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full max-w-md px-8 py-6 bg-gradient-to-r from-yellow-600 via-yellow-500 to-amber-500 text-black font-extrabold text-2xl rounded-2xl border border-yellow-400 flex items-center justify-center gap-4 hover:from-yellow-500 hover:via-amber-400 hover:to-yellow-400 transition-colors shadow-lg shadow-yellow-900/50"
